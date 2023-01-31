@@ -67,7 +67,7 @@ The hyperparameters used were:
 
 ATTEMPT 3<br>
 
-For my third and final attempt (Resources/AlphabetSoupCharity3.h5) I review the data cleaning and preprocessing steps and find the NAME column usefull to predict the outcome. This attempt resulted in an <b>accuracy score of 77.3%</b>.
+For my third and final attempt (Resources/AlphabetSoupCharity3.h5) I review the data cleaning and preprocessing steps and find the NAME column usefull to predict the outcome. This attempt resulted in an <b>accuracy score of 77%</b>.
 
 The hyperparameters used were:
 * Input layer: 71 neurons
@@ -90,10 +90,11 @@ Deep learning and other modern nonlinear machine learning techniques get better 
 ![](Images/performance_graph.png)
 
 
+However, the best practice is to use a simpler model first. Simpler model require less resources and is better explainable. In this case i think a <b>Logistic Regression</b> model will be much more efficient.
 
 ## My Code
 VSCode: 
-1. DeepLearning.ipynb,<br>
-2. AlphabetSoupCharity_Optimisation1.ipynb,<br> 
-3. AlphabetSoupCharity_Optimisation2.ipynb,<br>
-4. AlphabetSoupCharity_Optimisation_Final.ipynb
+1. Part one: DeepLearning.ipynb,<br>
+2. 1st Optimization: AlphabetSoupCharity_Optimisation1.ipynb,<br> 
+3. 2nd Optimization: AlphabetSoupCharity_Optimisation2.ipynb,<br>
+4. 3rd Optimization: AlphabetSoupCharity_Optimisation_Final.ipynb
